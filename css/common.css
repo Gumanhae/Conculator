@@ -1,16 +1,16 @@
-#selectConvertList {
-    width: 40%;
-    margin-bottom: 10px;
-}
-
-#content {
+#root {
     display: flex;
 }
 
-#mainInputDiv {
-    width: 40%;
+#selectInputDiv {
+    width: 30%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#mainInput {
     border-radius: none;
-    margin-right: 5px;
+    margin-top: 10px;
 }
 
 #mainInput {
@@ -19,9 +19,49 @@
 }
 
 #convertedList {
-    width: 20%;
+    width: 30%;
 }
 
 .convertedResult {
+    height: 60px;
     border: 1px solid #ced4da;
+    border-radius: 0%;
+    margin-bottom: 5px;
+
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

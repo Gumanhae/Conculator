@@ -25,34 +25,31 @@
     </div>
 
     <hr>
+    <div id="root">
+        <div id="selectInputDiv">
+            <select id="selectConvert" class="form-select" aria-label="selectConvertUnit">
+                <option selected value="길이">길이</option>
+                <option value="면적">면적</option>
+                <option value="질량">질량</option>
+                <option value="부피">부피</option>
+                <option value="속도">속도</option>
+                <option value="압력">압력</option>
+                <option value="에너지">에너지</option>
+                <option value="연비">연비</option>
+                <option value="온도">온도</option>
+                <option value="주파수">주파수</option>
+            </select>
 
-    <div id="selectConvertList">
-        <select id="selectConvert" class="form-select" aria-label="selectConvertUnit">
-            <option selected value="길이">길이</option>
-            <option value="면적">면적</option>
-            <option value="부피">부피</option>
-            <option value="속도">속도</option>
-            <option value="시간">시간</option>
-            <option value="압력">압력</option>
-            <option value="에너지">에너지</option>
-            <option value="연비">연비</option>
-            <option value="온도">온도</option>
-            <option value="주파수">주파수</option>
-            <option value="질량">질량</option>
-            <option value="평면각">평면각</option>
-            <option value="데이터 크기">데이터 크기</option>
-            <option value="데이터 전송 속도">데이터 전송 속도</option>
-    </select>
-    </div>
-
-    <div id="content">
-        <div id="mainInputDiv">
             <input id="mainInput" type="text" placeholder="Type the value" class="form-control">
-            <p>ex) 100m > mile</p>
         </div>
+    
+    
         <div id="convertedList">
-            <p class="convertedResult">ddddddddd</p>
         </div>
+    </div>
+    
+    <div id="footer">
+
     </div>
 </body>
 
